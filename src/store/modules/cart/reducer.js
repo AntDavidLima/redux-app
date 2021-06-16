@@ -1,13 +1,16 @@
 import produce from 'immer';
 
+import ActionTypes from './types';
+
 const INITIAL_STATE = {
   items: [],
+  failedStockCheck: []
 };
 
 function cart(state = INITIAL_STATE, action) {
   return produce(state, draft => {
     switch (action.type) {
-      case 'ADD_PRODUCT_TO_CART': {
+      case ActionTypes.addProductToCartSuccess: {
         const { product } = action.payload;
 
         const productInCartIndex = draft.items.findIndex(item => item.product.id === product.id);
@@ -20,8 +23,12 @@ function cart(state = INITIAL_STATE, action) {
             quantity: 1
           })
         }
+        break;
       }
-      break;
+      case ActionTypes.addProductToCartFailure: {
+        draft.failedStockCheck.push(action.payload.productId);
+        break;
+      }
       default: {
         return draft;
       }
