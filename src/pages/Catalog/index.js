@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 
-import api from '../services/api';
+import './style.css';
 
-import CatalogItem from './CatalogItem';
+import api from '../../services/api';
+
+import CatalogItem from '../../components/CatalogItem';
 
 function Catalog() {
   const [catalog, setCatalog] = useState([]);
@@ -15,13 +17,11 @@ function Catalog() {
   }, []);
 
   return (
-    <>
-      <h1>Catalog</h1>
-
+    <div id="catalog-container">
       {catalog.map(product => (
         <CatalogItem key={product.id} product={product} />
       ))}
-    </>
+    </div>
   )
 }
 
