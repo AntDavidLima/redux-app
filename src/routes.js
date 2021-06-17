@@ -1,13 +1,13 @@
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
-function Routes() {
+import Login from './pages/Login/index';
+import Signin from './pages/Signin/index';
+
+export default function Routes() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="/" component={() => <h1>Página inicial</h1>} />
-      </Switch>
-    </BrowserRouter>
+    <Switch>
+      <Route exact path='/login' component={Login} />
+      <Route exact path='/signin' component={Signin} />
+    </Switch>
   )
 }
-
-export default Routes;
