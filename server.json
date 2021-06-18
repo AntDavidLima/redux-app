@@ -33,9 +33,51 @@
   "users": [
     {
       "email": "antdavidlima@gmail.com",
-      "password": "$2a$10$rf5k13lJstTbdY93deJOSuRP5OwY1vbliEmSFbR04zeGrWi5r/RGC",
+      "password": "$2a$10$gQsGWeDPfiC2va7BG7k8Ze9xbraiDbSIEaW13nf.vhWIe7yHlIuAy",
       "name": "David Lima",
       "id": 1
+    },
+    {
+      "email": "antdavidlima2@gmail.com",
+      "password": "$2a$10$jN8ajmjs5uLfr4g6kdEpjOypzApH33mX/XLWb7F1d/yQNHEie5oAq",
+      "name": "David Lima",
+      "id": 2
+    },
+    {
+      "email": "antdavidlisma2@gmail.com",
+      "password": "$2a$10$03FqosPYvPvoeGVIv8IB.eouVQdhdK.MgDOili0owT2fy2AQWWZsq",
+      "name": "David Lima",
+      "id": 3
+    },
+    {
+      "email": "antdavidlisma2s@gmail.com",
+      "password": "$2a$10$BsjfRcMBRTNnLDFjA610BO4jc0P063AfSlXiCqRzTOhhL9EBHQiaG",
+      "name": "David Lima",
+      "id": 4
+    },
+    {
+      "email": "antda213vidlima@gmail.com",
+      "password": "$2a$10$TpPUJhkpAlex3BGMpww5werfHVNvXfLQQvtbaIBprMkQ5muCl3Fu2",
+      "name": "David Lima",
+      "id": 5
+    },
+    {
+      "email": "brenosouza@breno",
+      "password": "$2a$10$fjgOscE4vS38doHYzE.oq.NYUnuP08N4pP0092kv.hz8ocySXpfYG",
+      "name": "Breno Souza",
+      "id": 6
+    },
+    {
+      "email": "brenosouza1@breno",
+      "password": "$2a$10$wkyTfDWVeM4mm10d2ySdo.m.lpa4e345OlVdbrgxSbmt97bSgffpK",
+      "name": "Breno Souza",
+      "id": 7
+    },
+    {
+      "email": "asd@qwe",
+      "password": "$2a$10$HHnHNYbJFHJWmYXQG99vmu51eiCEBTFVEDSQa20Jxma59md1LDZlu",
+      "name": "David Lima",
+      "id": 8
     }
   ]
 }
