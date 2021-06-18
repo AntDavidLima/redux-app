@@ -78,6 +78,12 @@
       "password": "$2a$10$HHnHNYbJFHJWmYXQG99vmu51eiCEBTFVEDSQa20Jxma59md1LDZlu",
       "name": "David Lima",
       "id": 8
+    },
+    {
+      "email": "batata@batata",
+      "password": "$2a$10$5SsZIWh/naNrWOWOcUuTU.ZgKX6pIOxgmc7mPbZDnrKNX6oG1Krni",
+      "name": "Batata",
+      "id": 9
     }
   ]
 }
